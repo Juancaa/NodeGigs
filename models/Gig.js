@@ -20,3 +20,5 @@ const Gig = db.define('gig', {
 })
 
 module.exports = Gig;
+
+db.sync();
